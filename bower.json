@@ -1,0 +1,28 @@
+{
+  "name": "irregular_english_verbs",
+  "description": "site for studying english irregular verbs",
+  "main": "index.html",
+  "authors": [
+    "tchmil <sergeytchmil@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "irregular",
+    "verbs",
+    "english",
+    "study",
+    "dictionary"
+  ],
+  "homepage": "https://github.com/SergeyChmil/irregular_english_verbs",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-social": "^5.1.1",
+    "bootstrap": "^3.3.7"
+  }
+}
