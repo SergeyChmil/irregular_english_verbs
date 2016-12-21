@@ -1,0 +1,57 @@
+<!-----------HEADER------------->
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+
+    <div class="navbar-header mynavbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+
+      </button>
+      <a class="navbar-brand" href="#">{{title}}</a>
+    </div>
+  </div>
+</nav>
+<!-------------VERBS--------------->
+<div class="container-fluid" (click)="track('DIV CLICKED')">
+  <div class="panel-group">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+
+        <div class="container">
+
+          <div class="col-sm-4">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" href="#collapse1">Collapsible panel</a>
+            </h4>
+          </div>
+          <div class="col-sm-4">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" href="#collapse1">Collapsible panel</a>
+            </h4>
+          </div>
+          <div class="col-sm-4">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" href="#collapse1">Collapsible panel</a>
+            </h4>
+          </div>
+        </div>
+
+      </div>
+      <div id="collapse1" class="panel-collapse collapse">
+        <div class="panel-body">Panel Body</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!------------FOOTER--------------->
+<div class="navbar-fixed-bottom row-fluid">
+  <div class="navbar-inner">
+    <div class="container-fluid">
+      FOOTER
+    </div>
+  </div>
+</div>
