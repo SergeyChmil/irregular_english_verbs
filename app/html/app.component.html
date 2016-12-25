@@ -13,16 +13,31 @@
     </div>
   </div>
 </nav>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+
+    <div class="navbar-header mynavbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+
+      </button>
+      <a class="navbar-brand" href="#">{{title}}</a>
+    </div>
+  </div>
+</nav>
 <!-------------VERBS--------------->
 <div class="container-fluid" (click)="track('DIV CLICKED')">
   <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+
     <div class="panel panel-default panel-verb-rare">
       <div class="panel-heading" role="tab" id="headingOne">
         <div class="container">
           <div class="row">
             <div class="col-xs-4">
               <h4 class="panel-title">
-                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne"
+                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#Verb0"
                    aria-expanded="true" aria-controls="collapseOne">
                   Forget
                 </a>
@@ -30,7 +45,7 @@
             </div>
             <div class="col-xs-4">
               <h4 class="panel-title">
-                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne"
+                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#Verb0"
                    aria-expanded="true" aria-controls="collapseOne">
                   Forgot
                 </a>
@@ -38,7 +53,7 @@
             </div>
             <div class="col-xs-4">
               <h4 class="panel-title">
-                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne"
+                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#Verb0"
                    aria-expanded="true" aria-controls="collapseOne">
                   Forgotten
                 </a>
@@ -49,7 +64,7 @@
         </div>
       </div>
 
-      <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+      <div id="Verb0" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
         <div class="panel-body">
           Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon
           officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf
