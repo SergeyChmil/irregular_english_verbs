@@ -1,39 +1,27 @@
 <!-----------HEADER------------->
-<nav class="navbar navbar-default">
-  <div class="container-fluid">
-
-    <div class="navbar-header mynavbar">
+<nav class="navbar navbar-default navbar-static-top my-navbar ">
+  <div class="container">
+    <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
               data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
-
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand" href="#">{{title}}</a>
     </div>
   </div>
 </nav>
-<nav class="navbar navbar-default">
-  <div class="container-fluid">
 
-    <div class="navbar-header mynavbar">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-              data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-
-      </button>
-      <a class="navbar-brand" href="#">{{title}}</a>
-    </div>
-  </div>
-</nav>
 <!-------------VERBS--------------->
 <div class="container-fluid" (click)="track('DIV CLICKED')">
-  <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-
-    <div class="panel panel-default panel-verb-rare">
+  <div class="panel-group my-panel" id="accordion" role="tablist" aria-multiselectable="true">
+<!------ Verb component ------>
+    <div class="panel panel-default panel-verb-rare text-center">
+      <!--------- verb header ------>
       <div class="panel-heading" role="tab" id="headingOne">
-        <div class="container">
+        <div class="container-fluid">
           <div class="row">
             <div class="col-xs-4">
               <h4 class="panel-title">
@@ -64,20 +52,42 @@
         </div>
       </div>
 
+      <!----------------- verb body -------------------->
       <div id="Verb0" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
-        <div class="panel-body">
-          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon
-          officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf
-          moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim
-          keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur
-          butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably
-          haven't heard of them accusamus labore sustainable VHS.
+        <div class="panel-body my-panel-body">
+
+          <div class="container-fluid">
+            <div class="row-fluid">
+              <div class="col-xs-4">
+                <p class="prounoncation">Произношение <span>  |    </span><strong class="translation">Перевод</strong></p>
+              </div>
+              <div class="col-xs-4">
+                <p class="prounoncation">Произношение <span>  |    </span><strong class="translation">Перевод</strong></p>
+              </div>
+              <div class="col-xs-4">
+                <p class="prounoncation">Произношение <span>  |    </span><strong class="translation">Перевод</strong></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="alert alert-warning" role="alert">
+            <div class="container-fluid">
+              <div class="row">
+                <p><label>1st form:</label>  It is inpossible to forget! <i>Это невозможно забыть!</i></p>
+                <p><label>1st form:</label>  It is inpossible to forget! <i>Это невозможно забыть!</i></p>
+                <p class="last-item-margin"><label>1st form:</label>  It is inpossible to forget! <i>Это невозможно забыть!</i></p>
+
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
 
     </div>
   </div>
 </div>
+
 
 
 <!------------FOOTER--------------->
